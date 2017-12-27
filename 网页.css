@@ -113,6 +113,13 @@
 			height: 28px;
 			padding-top: 194px;
 		}
+		.photo2{
+			background-image: url(img/beijing2.png);
+			background-repeat: no-repeat;
+			background-position: 60%;
+			height: 28px;
+			padding-top: 194px;
+		}
 		.moddle{
 			background-color:rgba(0,0,0,0.3);
 			height: 28px;
@@ -156,6 +163,22 @@
 		.face2:hover{
 			background-color: #636363;
 			color: #fff;
+		}
+		.face3{
+			padding-top: 19px;
+		}
+		.face4{
+			font-size: 12px;
+		}
+		.face5{
+			font-size: 41px;
+			font-weight: bold;
+		}
+		.face6{
+			width: 110px;
+			height: 139px;
+			border-top: 1px solid #e2e2e2;
+			float: left;
 		}
 		.eyes{
 			width: 1110px;
@@ -250,6 +273,67 @@
 		}
 		.right2 a:hover{
 			color: #cecccc;
+		}
+		.xin{
+			width: 110px;
+			height: 139px;
+			border-top: 1px solid #e2e2e2;
+			float: left;
+			background-image: url(img/图2-1.png);
+			background-repeat:no-repeat;
+		}
+		.xin p{
+			color: #999999;
+			text-align: center;
+		}
+		.nose{
+			width: 950px;
+			height: 101px;
+			float: right;
+			border-top: 1px solid #e2e2e2;
+			padding-top: 19px;
+			padding-bottom: 19px;
+			padding-left: 11px;
+		}          
+		.nose1{
+			float: left;
+			height: 100px;
+			border: 1px solid #f0f1f1;
+		}
+		.nose2{
+			float: left;
+			width: 706px;
+			margin-left: 22px;
+		}
+		.nose2 h1{
+			color: #dd4012;
+			font-size: 18px;
+			font-weight: bold;
+		}
+		.nose2 a{
+			margin-left: 20px;
+		}
+		.nose2 a:hover{
+			color: #dd4012;
+		}
+		.nose3{
+			padding: 17px 0;
+			color: #333333;
+		}
+		.nose4{
+			margin-right: 0px;
+		}
+		.nose1:hover{
+			border: 1px solid #dd4012;
+		}
+		.noxin{
+			width: 110px;
+			height: 139px;
+			border-top: 1px solid #e2e2e2;
+			float: left;
+		}
+		.noxin p{
+			text-align: center;
 		}
 
 

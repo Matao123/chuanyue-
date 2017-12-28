@@ -19,12 +19,15 @@
 		.head{
 			background-color: #323232;
 			line-height: 48px;
-			height: 48px;
 		}
 		.top{
 			width: 1110px;
 			margin: 0 auto;
 			text-align: center;
+			height: 48px;
+		}
+		.top1{
+			float: left;
 		}
 		.top1 .tu1{
 			padding-left: 0px;
@@ -39,12 +42,15 @@
 			padding-top: 10px;
 			height: 38px;
 		}
-		.top .top2{
+		.top2{
 			float: right;
 			height: 48px;
 		}
-		.top .top2 li{
+		.top2 li{
 			float: left;
+		}
+		.top2 a{
+			overflow: hidden;
 		}
 		.tu3{
 			margin-left: 0px;
@@ -84,7 +90,7 @@
 			background-image: url(img/mal.png);
 			background-repeat: no-repeat;
 			height: 38px;
-			width: 32px;
+			width: 26px;
 			float: left;
 			margin-top: 10px;
 			margin-left: 8px;
@@ -120,6 +126,12 @@
 			height: 28px;
 			padding-top: 194px;
 		}
+		.photo3{
+			background-image: url(img/beijing3.png);
+			background-repeat: no-repeat;
+			height: 28px;
+			padding-top: 194px;
+		}
 		.moddle{
 			background-color:rgba(0,0,0,0.3);
 			height: 28px;
@@ -141,17 +153,24 @@
 		.moddle3{
 			margin-left: 5px;
 		}
+		.moddle4{
+			width: 1110px;
+			margin: 0 auto;
+			line-height: 28px;
+		}
+		.moddle4 a,.moddle4 span{
+			color: #e3e3e3;
+		}
+		.moddle4 a:hover{
+			color: #fff;
+			text-decoration: underline;
+		}
 		.face{
 			padding-top: 25px;
-		}
-		.face1{
 			width: 1110px;
 			margin: 0 auto;
 		}
-		.clear{
-			clear: both;
-		}
-		.face2{
+		.face1 li{
 			width: 78px;
 			height: 27px;
 			float: left;
@@ -160,8 +179,20 @@
 			margin-right: 5px;
 			line-height: 27px;
 		}
-		.face2:hover{
+		.face1 a{
+			display: block;
+		}
+		.face1 li:hover a{
 			background-color: #636363;
+			color: #fff;
+		}
+		.clear{
+			clear: both;
+		}
+		.face .face2{
+			background-color: #636363;
+		}
+		.face .face2 a{
 			color: #fff;
 		}
 		.face3{
@@ -220,7 +251,7 @@
 			margin-bottom: 41px;
 			overflow: hidden;
 		}
-		.leg div{
+		.leg li{
 			float: left;
 			width: 36px;
 			height: 36px;
@@ -229,10 +260,13 @@
 			line-height: 36px;
 			text-align: center;
 		}
+		.leg a{
+			display: block;
+		}
 		.leg .leg1{
 			margin-right: 0px;
 		}
-		.leg div:hover{
+		.leg li:hover{
 			background-color: #dd4012;
 			color: #fff;
 		}
@@ -249,13 +283,16 @@
 		.left img{
 			margin-top: 12px;
 		}
-		.right1{
+		.right{
 			float: right;
+		}
+		.right1{
 			padding-top: 28px;
+			overflow: hidden;
 		}
 		.right1 p{
 			float: right;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 		}
 		.right1 a{
 			color: #999999;
@@ -263,16 +300,16 @@
 		}
 		.right1 a:hover{
 			text-decoration: underline;
-			color: #fff;
+			color: #dd4012;
 		}
 		.right2{
-			float: right;
+			padding-bottom: 18px;
 		}
-		.right2 a,span{
+		.right2 a,.right2 span{
 			margin-left: 10px;
 		}
 		.right2 a:hover{
-			color: #cecccc;
+			color: #dd4012;
 		}
 		.xin{
 			width: 110px;
@@ -334,6 +371,71 @@
 		}
 		.noxin p{
 			text-align: center;
+		}
+		.hair{
+			width: 1110px;
+			background-color: #fff;
+			margin: 0 auto;
+			margin-top: 96px;
+			margin-bottom: 33px;
+		}
+		.hair4 h1{
+			color: #333;
+			font-size: 18px;
+		}
+		.hair1{
+			overflow: hidden;
+			margin-bottom: 8px;
+		}
+		.hair1 span,.hair1 p{
+			float: left;
+			margin-right: 10px;
+		}
+		.hair2{
+			color: #333;
+		}
+		.hair1 .hair3{
+			float: right;
+		}
+		.hair4{
+			width: 1000px;
+			padding: 42px 58px 60px 52px;
+		}
+		.hair4 h1{
+			margin-bottom: 22px;
+		}
+		.hair4 img{
+			border-top: 1px solid #f0f1f1;
+			padding-top: 33px;
+			margin-bottom: 32px;
+		}
+		.hair5{
+			border-bottom: 1px solid #f0f1f1;
+			padding-bottom: 12px;
+		}
+		.hair5 p{
+			color: #333;
+			margin-bottom: 32px;
+			font-size: 14px;
+		}
+		.hair5 .long{
+			line-height: 28px;
+		}
+		.mouth{
+			margin-top: 18px;
+		}
+		.mouth a{
+			color: #333;
+		}
+		.mouth1{
+			float: left;
+		}
+		.mouth2{
+			float: right;
+		}
+		.mouth a:hover{
+			color: #dd4012;
+			text-decoration: underline;
 		}
 
 

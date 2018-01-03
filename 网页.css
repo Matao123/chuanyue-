@@ -534,7 +534,6 @@
 		.ear h1{
 			font-size: 20px;
 			color: #dd4012;
-			margin-bottom: 33px;
 		}
 		.ear p{
 			font-size: 14px;
@@ -619,6 +618,32 @@
 		.arm2 img{
 			width: 100%;
 		}
+		.nav{
+			width: 1110px;
+			margin: 0 auto;
+		}
+		.nav1{
+			width: 540px;
+			float: left;
+		}
+		.nav1 img{
+			width: 100%;
+		}
+		.nav2{
+			width: 520px;
+			float: right;
+		}
+		.nav2 p{
+			font-size: 14px;
+			color: #333;
+			text-indent: 28px;
+			margin-bottom: 30px;
+			line-height: 24px;
+		}
+		.nav2 span{
+			color: #dd4012;
+		}
+		
 
                                               
 		

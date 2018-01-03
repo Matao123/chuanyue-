@@ -19,6 +19,10 @@
 		.head{
 			background-color: #323232;
 			line-height: 48px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
 		}
 		.top{
 			width: 1110px;
@@ -101,6 +105,12 @@
 		.top1 li:hover a{
 			color: #fff;
 		}
+		.top1 .jiejue{
+			background-color: #dd4012;
+		}
+		.top1 .jiejue a{
+			color: #fff;
+		}
 		.top2 .tu4:hover{
 			background-image: url(img/qq2.png);
 		}
@@ -118,6 +128,7 @@
 			background-repeat: no-repeat;
 			height: 28px;
 			padding-top: 194px;
+			margin-top: 48px;
 		}
 		.photo2{
 			background-image: url(img/beijing2.png);
@@ -125,12 +136,30 @@
 			background-position: 60%;
 			height: 28px;
 			padding-top: 194px;
+			margin-top: 48px;
 		}
 		.photo3{
 			background-image: url(img/beijing3.png);
 			background-repeat: no-repeat;
 			height: 28px;
 			padding-top: 194px;
+			margin-top: 48px;
+		}
+		.photo4{
+			background-image: url(img/beijing4.png);
+			background-repeat: no-repeat;
+			background-position: 40%;
+			height: 28px;
+			padding-top: 172px;
+			margin-top: 48px;
+		}
+		.photo5{
+			background-image: url(img/beijing5.png);
+			background-repeat: no-repeat;
+			background-position: 50%;
+			height: 28px;
+			padding-top: 192px;
+			margin-top: 48px;
 		}
 		.moddle{
 			background-color:rgba(0,0,0,0.3);
@@ -223,6 +252,7 @@
 			float: left;
 			margin-right: 21px;
 			margin-bottom: 33px;
+			transition:all 0.8s;
 		}
 		.eyes1 img{
 			width: 100%;
@@ -244,6 +274,7 @@
 		}
 		.eyes1:hover{
 			border: 1px solid #dd4012;
+			transform:scale(1.1);
 		}
 		.leg{
 			width: 242px;
@@ -437,7 +468,166 @@
 			color: #dd4012;
 			text-decoration: underline;
 		}
+		.tooth{
+			width: 1110px;
+			margin: 45px auto 30px auto;
+		}
+		.tooth1{
+			width: 200px;
+			background-color: #000;
+			float: left;
+		}
+		.tooth1 li{
+			border-bottom: 1px solid #1b1c1e;
+			line-height: 36px;
+		}
+		.tooth1 a{
+			font-size: 14px;
+			color: #909090;
+			padding-left: 35px;
+			display: block;
+		}
+		.tooth1 a:hover{
+			background-color: #dd4012;
+			color: #fff;
+		}
+		.tooth2{
+			background-color: #dd4012;
+		}
+		.tooth2 a{
+			color: #fff;
+		}
+		.tooth3{
+			float: right;
+		}
+		.ear{
+			width: 1110px;
+			margin: 45px auto;
+		}
+		.ear1{
+			border-bottom: 1px solid #dd4012;
+			margin-bottom: 40px;
+		}
+		.ear1 li{
+			float: left;
+			margin-right: 15px;
+			background-color: #cdcdcd;
+			width: 104px;
+			line-height: 32px;
+			text-align: center;
+		}
+		.ear1 a{
+			color: #333;
+			font-size: 14px;
+			display: block;
+		}
+		.ear1 a:hover{
+			color: #fff;
+			background-color: #dd4012;
+		}
+		.ear1 .ear2{
+			background-color: #dd4012;
+		}
+		.ear1 .ear2 a{
+			color: #fff;
+		}
+		.ear h1{
+			font-size: 20px;
+			color: #dd4012;
+			margin-bottom: 33px;
+		}
+		.ear p{
+			font-size: 14px;
+			color: #333;
+			line-height: 34px;
+		}
+		.ear3{
+			text-indent: 28px;
+			margin-bottom: 42px;
+		}
+		.ear img{
+			width: 1110px;
+			margin-top: 32px;
+		}
+		.neck img{
+			width: 200px;
+			border: 1px solid #fff;
+			margin-top: 0;
+			margin-right: 25px;
+			margin-bottom: 30px;
+			float: left;
+		}
+		.neck img:hover{
+			border: 1px solid #dd4012;
+			transform: scale(1.1);
+		}
+		.neck .neck1{
+			margin-right: 0;
+		}
+		.neck2{
+			text-align: center;
+		}
+		.neck2 span{
+			display: inline-block;
+			width: 6px;
+			height: 6px;
+			background-color: #dd4012;
+			border-radius: 50%;
+			margin-right: 22px;
+		}
+		.neck2 .neck3{
+			margin-right: 0;
+		}
+		.arm{
+			width: 1110px;
+			margin: 0 auto;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.arm li{
+			float: left;
+			background-color: #cdcdcd;
+			margin-right: 2px;
+			margin-top: 32px;
+		}
+		.arm a{
+			font-size: 14px;
+			color: #333;
+			display: block;
+			padding: 12px 18px;
+		}
+		.arm a:hover{
+			background-color: #dd4012;
+			color: #fff;
+		}
+		.arm .arm1{
+			background-color: #dd4012;
+		}
+		.arm1 a{
+			color: #fff;
+		}
+		.arm2 h1{
+			font-size: 30px;
+			color: #666;
+			margin: 40px auto;
+		}
+		.arm2 h2{
+			color: #333;
+			font-size: 22px;
+			margin: 40px auto;
+		}
+		.arm2 img{
+			width: 100%;
+		}
 
-
-
+                                              
 		
+
+
+
+
+
+
+
+
+

@@ -15,6 +15,7 @@
 		.top1 li{
 			float: left;
 			height: 48px;
+			margin-right: 5px;
 		}
 		.head{
 			background-color: #323232;
@@ -23,6 +24,7 @@
 			top: 0;
 			left: 0;
 			width: 100%;
+			z-index: 2;
 		}
 		.top{
 			width: 1110px;
@@ -40,7 +42,7 @@
 		}
 		.top1 a{
 			display: block;
-			width: 80px;
+			padding: 0 16px;
 		}
 		.tu2{
 			padding-top: 10px;
@@ -171,28 +173,17 @@
 			line-height: 28px;
 		}
 		.moddle1 a,.moddle1 span{
-			color: #a6a6a6;
+			color: #e3e3e3;
 		}
 		.moddle1 a:hover{
-			color: #fff;
+			color: #dd4012;
+			text-decoration: underline;
 		}
 		.moddle2{
 			margin-right: 5px;
 		}
 		.moddle3{
 			margin-left: 5px;
-		}
-		.moddle4{
-			width: 1110px;
-			margin: 0 auto;
-			line-height: 28px;
-		}
-		.moddle4 a,.moddle4 span{
-			color: #e3e3e3;
-		}
-		.moddle4 a:hover{
-			color: #fff;
-			text-decoration: underline;
 		}
 		.face{
 			padding-top: 25px;
@@ -299,6 +290,8 @@
 		}
 		.leg li:hover{
 			background-color: #dd4012;
+		}
+		.leg li:hover a{
 			color: #fff;
 		}
 		.foot{
@@ -534,6 +527,7 @@
 		.ear h1{
 			font-size: 20px;
 			color: #dd4012;
+			margin-bottom: 24px;
 		}
 		.ear p{
 			font-size: 14px;

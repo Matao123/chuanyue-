@@ -48,15 +48,27 @@
 			padding-top: 10px;
 			height: 38px;
 		}
+		.tubiao{
+			height: 48px;
+			margin-left: 12px;
+		}
+		.tubiao a{display: inline-block;}
+		.tubiao div{
+			background-repeat: no-repeat;
+			height: 38px;
+			width: 22px;
+			float: left;
+			margin-top: 10px;
+			transition:all 0.5s;
+			background-position: center;
+		}
 		.top2{
 			float: right;
 			height: 48px;
+			text-align: center;
 		}
 		.top2 li{
 			float: left;
-		}
-		.top2 a{
-			overflow: hidden;
 		}
 		.tu3{
 			margin-left: 0px;
@@ -67,39 +79,15 @@
 		}
 		.tu4{
 			background-image: url(img/qq.png);
-			background-repeat: no-repeat;
-			height: 38px;
-			width: 32px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 10px;
 		}
 		.tu5{
 			background-image: url(img/weibo.png);
-			background-repeat: no-repeat;
-			height: 38px;
-			width: 32px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 8px;
 		}
 		.tu6{
 			background-image: url(img/weixin.png);
-			background-repeat: no-repeat;
-			height: 38px;
-			width: 32px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 8px;
 		}
 		.tu7{
 			background-image: url(img/mal.png);
-			background-repeat: no-repeat;
-			height: 38px;
-			width: 26px;
-			float: left;
-			margin-top: 10px;
-			margin-left: 8px;
 		}
 		.top1 li:hover{
 			background-color: #dd4012;
@@ -189,6 +177,7 @@
 			padding-top: 25px;
 			width: 1110px;
 			margin: 0 auto;
+			overflow: hidden;
 		}
 		.face1 li{
 			width: 78px;

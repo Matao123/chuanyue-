@@ -55,10 +55,10 @@
 		.tubiao a{display: inline-block;}
 		.tubiao div{
 			background-repeat: no-repeat;
-			height: 38px;
+			height: 42px;
 			width: 22px;
 			float: left;
-			margin-top: 10px;
+			margin-top: 6px;
 			transition:all 0.5s;
 			background-position: center;
 		}
